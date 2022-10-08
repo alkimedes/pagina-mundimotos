@@ -1,0 +1,58 @@
+/*cambiar el estilo ala pagina con css */
+
+
+/*en body se le cambia el color a la pagina con background-color, para cambiarle la fuenta
+de letra se usa font-family*/ 
+body{
+    background-color:rgb(254, 254, 255); 
+    font-family: 'roboto', sans-serif;
+}
+
+/*para centrar cualquier titulo se usa text-align*/
+h1,h2{
+    text-align: center;
+    
+}
+
+/*se le cambia el color de las letras solo seleccinando el p o el h1 y el codigo color*/
+h1{color:rgb(37, 8, 251);}
+h2{color: rgb(37, 8, 251)}
+p{
+    color:rgb(37, 8, 251);
+    /*font-size: 24px;*/
+}
+
+/*para cambiar solo lo que esta dentro de un div tengo que poner (div h2 o en su defecto el h que este por dentro de ese div)*/
+
+/*las id y clases*/
+/*IDs son unicos en elementos 
+las clases son repetibles*/
+/*para poner traer de html las id se usa un (#) pero para traer las clases se usa un (.)*/
+
+#cesar1{
+    font-size: 1,5em;
+    font-weight: bold;
+}
+
+/*para poder que un link se vea debajo de la imagen se usa display: block dependiendo en caso.*/
+
+/*para poner el enlace con margenes se usa margin y para que el enlace cambie de colo
+cuando se pase el cursos se usa como atributo hover.*/
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color:rgb(37, 8, 251);
+
+}
+a:hover{
+    color:red;
+}
+
+img{
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+
+}
+
+
